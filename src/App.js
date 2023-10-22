@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import {Home} from './Component';
+import {Cards} from './Component';
+import {Solareclipse }from './Component';
+import {Mars} from './Component';
+import {Jupiter} from './Component';
+import Transition from './Transition';
+import { motion } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 
-function App() {
+const App = () => {
+
+  const location = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AnimatePresence mode='wait'>
+    <Routes location={location} key={location.pathname}>
+      <Route path="/*" element={<Home />} />
+      <Route path="/explore" element={<Cards />} />
+      <Route path="/Solareclipse" element={<Solareclipse />} />
+      <Route path="/mars" element={<Mars />} />
+      <Route path="/jupiter" element={<Jupiter />} />
+    </Routes>
+    </AnimatePresence>
   );
-}
-
+};
 export default App;
