@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 import Earth from '../assets/card1.png';
 import Mars from '../assets/card2.png';
+import Jupiter from '../assets/card3.png';
 import Background from '../assets/background1.jpg';
 import Transition from '../Transition';
 
@@ -22,7 +23,7 @@ const cardData = [
     title: 'Jupiter',
     description: 'Jupiter doesn`t experience solar or lunar eclipses due to its size and lack of a solid surface, but it does exhibit mutual events as its moons pass in front of or behind each other, observable from Earth with a telescope.',
     path: '/Jupiter',
-    Image: Earth,
+    Image: Jupiter,
   },
 ];
 
