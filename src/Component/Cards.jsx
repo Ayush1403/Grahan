@@ -4,6 +4,7 @@ import Earth from '../assets/card1.png';
 import Mars from '../assets/card2.png';
 import Background from '../assets/background1.jpg';
 import Transition from '../Transition';
+import LOGO from '../assets/हण.png';
 
 const cardData = [
   {
