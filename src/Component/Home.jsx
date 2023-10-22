@@ -22,12 +22,12 @@ const Home = () => {
       animate={{ width: '100%' }}
       exit={{ x: window.innerWidth }}
     >
-      <Link to="/"> {/* Link to the main screen */}
+      <Link to="/*"> {/* Link to the main screen */}
         <img
           className="w-[15%] h-auto ml-6 pt-2 fixed align-top"
           src={LOGO}
           alt=""
-          style={{ cursor: 'pointer' }} {/* Add cursor pointer style to indicate it's clickable */}
+          style={{ cursor: 'pointer' }} 
         />
       </Link>
       <section className="w-full h-screen flex justify-center items-end">

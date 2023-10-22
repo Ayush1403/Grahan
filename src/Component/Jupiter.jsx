@@ -23,7 +23,14 @@ function Jupiter() {
       
       >
         <div>
-          <img className="w-[15%] h-auto ml-6 pt-2 fixed align-top" src={LOGO} alt="" />
+        <Link to="/*"> {/* Link to the main screen */}
+        <img
+          className="w-[15%] h-auto ml-6 pt-2 fixed align-top"
+          src={LOGO}
+          alt=""
+          style={{ cursor: 'pointer' }} 
+        />
+      </Link>
         </div>
         <section className='w-full h-screen flex justify-center items-end'>
         {/* <motion.div

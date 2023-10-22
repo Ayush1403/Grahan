@@ -62,11 +62,14 @@ const Cards = () => {
             <div
               className="relative bg-opacity-25 shadow-2xl rounded-rs w-full aspect-w-1 aspect-h-1 bg-blue-950 p-6 shadow-lg flex flex-col overflow-hidden transition-transform duration-600 transform scale-100 group-hover:scale-105 card"
             >
-              <img className='rounded-rs'
-                src={data.Image}
-                alt={data.title}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
+             <Link to="/*"> {/* Link to the main screen */}
+        <img
+          className="w-[15%] h-auto ml-6 pt-2 fixed align-top"
+          src={LOGO}
+          alt=""
+          style={{ cursor: 'pointer' }} 
+        />
+      </Link>
               <h2 className="mt-9 font-extrabold">{data.title}</h2>
               <div className="tooltip opacity-0 w-full p-6 h-[40%] bg-white text-black p-2 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 ease-in-out duration-300 text-center mt-10 items-center justify-center">
                 {data.description}
