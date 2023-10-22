@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Grahan/static/css/main.477bbcc8.css",
+    "main.js": "/Grahan/static/js/main.270de6cf.js",
+    "static/js/872.4ac632fc.chunk.js": "/Grahan/static/js/872.4ac632fc.chunk.js",
+    "static/js/227.b5fbb0c6.chunk.js": "/Grahan/static/js/227.b5fbb0c6.chunk.js",
+    "static/js/526.b628ad15.chunk.js": "/Grahan/static/js/526.b628ad15.chunk.js",
+    "static/js/232.5428be8a.chunk.js": "/Grahan/static/js/232.5428be8a.chunk.js",
+    "static/js/237.03fe7faf.chunk.js": "/Grahan/static/js/237.03fe7faf.chunk.js",
+    "static/js/787.7ff2dd26.chunk.js": "/Grahan/static/js/787.7ff2dd26.chunk.js",
+    "static/media/background1.jpg": "/Grahan/static/media/background1.59f36b8069d24b77a99d.jpg",
+    "static/media/card2.png": "/Grahan/static/media/card2.fdb09b240bab83601ec5.png",
+    "static/media/हण.png": "/Grahan/static/media/हण.49bb7906029cfef2bc82.png",
+    "static/media/card1.png": "/Grahan/static/media/card1.06a82804b5c9eae587ec.png",
+    "index.html": "/Grahan/index.html",
+    "main.477bbcc8.css.map": "/Grahan/static/css/main.477bbcc8.css.map",
+    "main.270de6cf.js.map": "/Grahan/static/js/main.270de6cf.js.map",
+    "872.4ac632fc.chunk.js.map": "/Grahan/static/js/872.4ac632fc.chunk.js.map",
+    "227.b5fbb0c6.chunk.js.map": "/Grahan/static/js/227.b5fbb0c6.chunk.js.map",
+    "526.b628ad15.chunk.js.map": "/Grahan/static/js/526.b628ad15.chunk.js.map",
+    "232.5428be8a.chunk.js.map": "/Grahan/static/js/232.5428be8a.chunk.js.map",
+    "237.03fe7faf.chunk.js.map": "/Grahan/static/js/237.03fe7faf.chunk.js.map",
+    "787.7ff2dd26.chunk.js.map": "/Grahan/static/js/787.7ff2dd26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.477bbcc8.css",
+    "static/js/main.270de6cf.js"
+  ]
+}
